@@ -7,3 +7,6 @@ on:
 jobs:
   call-java-template:
     uses: kube-automations-v1/shared-pipelines/.github/workflows/java-template.yml@main
+    permissions:
+      contents: read
+      packages: write
