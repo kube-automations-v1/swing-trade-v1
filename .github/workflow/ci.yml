@@ -1,0 +1,9 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  call-java-template:
+    uses: kube-automations-v1/shared-pipelines/.github/workflows/java-template.yml@main
