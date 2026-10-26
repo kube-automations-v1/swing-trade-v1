@@ -10,4 +10,5 @@ jobs:
     permissions:
       contents: read
       packages: write
-    secrets: inherit
+    secrets:
+      GITOPS_PAT: ${{ secrets.GITOPS_PAT }}
