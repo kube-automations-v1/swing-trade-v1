@@ -15,4 +15,9 @@ public class Controller {
         return ResponseEntity.ok("pong");
     }
 
+    @GetMapping("/test")
+    public ResponseEntity<String> test(){
+        return ResponseEntity.ok("test");
+    }
+
 }
