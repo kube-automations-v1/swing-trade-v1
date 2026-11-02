@@ -3,5 +3,4 @@ spring:
     name: swing-trade-v1
 
 server:
-  servlet:
-    context-path: /swing-trade
+  port: 8080
